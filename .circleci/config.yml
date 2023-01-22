@@ -5,7 +5,7 @@ jobs:
     #if you have only one job then add build
     build:
         docker:
-          -image: circleci/python:3.7
+          - image: circleci/python:3.7
         
         working_directory: ~/repo
 
